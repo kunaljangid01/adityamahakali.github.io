@@ -29,6 +29,6 @@ document.onscroll=function(){
     let r = Math.floor(Math.random()*155);
     let g = Math.floor(Math.random()*155);
     let b = Math.floor(Math.random()*155);
-    console.log(r,g,b);
+   // console.log(r,g,b);
     document.body.style.backgroundColor = "rgb("+r+","+g+","+b+")";
 }
